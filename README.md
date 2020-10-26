@@ -6,7 +6,7 @@
 Feladat során használt könyvtárak:
 - **React**
 - **Redux** (redux, react-redux)
-- **React** Router (react-router-dom)
+- **React Router** (react-router-dom)
 - **UUID**
 
 Implementált screen-ek:
