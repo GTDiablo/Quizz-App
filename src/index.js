@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReduxProvider from './store';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ReduxProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </ReduxProvider>,
   document.getElementById('root')
 );
 
