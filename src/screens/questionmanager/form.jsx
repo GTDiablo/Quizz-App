@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React, {useState} from 'react'
+import { useDispatch } from 'react-redux'
 import { add_question } from '../../actions/questions';
 
 function Form() {

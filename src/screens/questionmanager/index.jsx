@@ -1,12 +1,12 @@
-import React, { useEffect, useState, useRef } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import QuestionItem from './questionitem'
 import Form from './form'
 
 const QuestionManager = (props) => {
     const questions_re = useSelector(state => state.questions);
-    const is_empty = questions_re.questions.length == 0;
+    const is_empty = questions_re.questions.length === 0;
     return (
         <div className="manager-container">
             <div className="navigation">
