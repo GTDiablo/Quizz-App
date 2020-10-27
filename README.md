@@ -21,6 +21,11 @@ Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Qui
 - **Quiz Eredmény**
 - **Question Manager** (Kérdések hozzáadása, törlése és frissítése)
 
+### Amiben a jövőben változtatnék:
+- A kérdés manager oldalon az elrendezést
+- Refaktorálnék néhány komponenst
+- Egy jobb Font Awesome (icon set) alternatívot keresnék
+
 
 ### Általános feladat leírása
 

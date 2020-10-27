@@ -1,3 +1,0 @@
-fontawesome nem töltődik be
-question manager itemjei nem néznek ki jól (sok a hely és széthúzza)
-a form nem reseteli az answereket
