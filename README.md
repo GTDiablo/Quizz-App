@@ -25,6 +25,7 @@ Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Qui
 - A kérdés manager oldalon az elrendezést
 - Refaktorálnék néhány komponenst
 - Egy jobb Font Awesome (icon set) alternatívot keresnék
+- Jobban responsívabbá tenném (főleg a landing és kérdés manager screen-t)
 
 
 ### Általános feladat leírása
