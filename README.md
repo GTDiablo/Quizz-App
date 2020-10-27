@@ -10,7 +10,7 @@ Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Qui
 #### Feladat során használt könyvtárak:
 - **React**
 - **Redux** (redux, react-redux)
-- **React** Router (react-router-dom)
+- **React Router** (react-router-dom)
 - **UUID**
 
 ### Implementált screen-ek:
