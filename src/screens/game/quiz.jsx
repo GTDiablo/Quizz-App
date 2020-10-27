@@ -3,6 +3,8 @@ import {useSelector, useDispatch } from 'react-redux'
 import { add_point, reset_game, next_question } from '../../actions/quiz';
 import ChoiceItem from './choiceitem'
 import { Link } from 'react-router-dom'
+import ResetIcon from './reset.svg'
+
 
 
 function Quiz() {
@@ -36,7 +38,7 @@ function Quiz() {
         <div className="navigation"
             onClick={()=> dispatch(reset_game())}
         >
-            <img src="./assets/reset.svg" alt="" />
+            <img src={ResetIcon} alt="" />
             Újrakezdés
         </div>
 

@@ -11,7 +11,7 @@ const QuestionManager = (props) => {
         <div className="manager-container">
             <div className="navigation">
                 <Link to="/">
-                    <i className="fa fa-arrow-left"></i>
+                    &lArr;
                     Vissza a játékhoz
             </Link>
             </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 import { set_name } from '../../actions/quiz';
 import { Link } from 'react-router-dom'
+import SettingsIcon from './settings.svg'
 
 
 function Landing(props) {
@@ -21,7 +22,7 @@ function Landing(props) {
             <div className="landing-hero">
                 <div className="navigation">
                     <Link to="/settings">
-                        <img src="./assets/settings.svg" alt="" />
+                        <img src={SettingsIcon} alt="" />
                         Beállítások
                     </Link>
                 </div>
@@ -39,7 +40,7 @@ function Landing(props) {
                         <button
                             disabled={disabled}
                             onClick={() => dispatch_name()}
-                            className="btn btn-primary">Kezdjünk Hozzá <i className="fa fa-arrow-right"></i>
+                            className="btn btn-primary">Kezdjünk Hozzá &rArr;
                         </button>
                     </div>
                     {disabled ?
