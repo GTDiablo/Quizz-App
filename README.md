@@ -3,16 +3,24 @@
 
 ### Fejlesztés
 
-Feladat során használt könyvtárak:
+Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Quiz-App?node-id=1%3A90](https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Quiz-App?node-id=1%3A90)
+
+Élő Quiz App Demo: *Majd jön*
+
+#### Feladat során használt könyvtárak:
 - **React**
 - **Redux** (redux, react-redux)
 - **React** Router (react-router-dom)
 - **UUID**
 
-Implementált screen-ek:
+### Implementált screen-ek:
 - **Landing** (Üdvözlő üzenet és név input.)
-- **Quiz** (Maga a játék)
+- **Quiz Kérdések** (Maga a játék)
+- **Quiz Eredmény**
 - **Question Manager** (Kérdések hozzáadása, törlése és frissítése)
+
+### Rendszerterv
+-
 
 ### Általános feladat leírása
 
