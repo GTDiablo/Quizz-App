@@ -5,10 +5,10 @@
 
 Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Quiz-App?node-id=1%3A90](https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Quiz-App?node-id=1%3A90)
 
-Élő Quiz App Demo: *Majd jön*
+Élő Quiz App Demo: [https://gtdiablo.github.io/Quizz-App/](https://gtdiablo.github.io/Quizz-App/)
 
 #### Feladat során használt könyvtárak:
-- **React**
+- **React** (react, react-dom, create-react-app)
 - **Redux** (redux, react-redux)
 - **React Router** (react-router-dom)
 - **UUID**
@@ -19,8 +19,6 @@ Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Qui
 - **Quiz Eredmény**
 - **Question Manager** (Kérdések hozzáadása, törlése és frissítése)
 
-### Rendszerterv
--
 
 ### Általános feladat leírása
 
