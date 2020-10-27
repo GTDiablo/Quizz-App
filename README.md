@@ -9,7 +9,7 @@ Látványtervek (Figma) : [https://www.figma.com/file/7clcrc0WtAouaGA0uBucUL/Qui
 
 > **Fontos:** A github pages az url-hez fűzi a /Quizz-App -t a root-hoz, react-router meg pont leszedi ezt, ezért ha simán a ***https://gtdiablo.github.io*** látogatjuk meg, 404 hibát dob ki.
 
-#### Feladat során használt könyvtárak:
+### Feladat során használt könyvtárak:
 - **React** (react, react-dom, create-react-app)
 - **Redux** (redux, react-redux)
 - **React Router** (react-router-dom)
