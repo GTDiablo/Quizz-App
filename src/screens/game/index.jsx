@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react';
+import { useSelector } from 'react-redux'
+import Landing from './landing'
+import Quiz from './quiz'
+
 
 const Game = (props) => {
-    useEffect(()=>{
 
-    }, []);
+    const quiz_re = useSelector(state => state.quiz);
 
-    const quiz = useSelector(state => state.quiz);
-    const questions = useSelector(state => state.questions);
-    const dispatch = useDispatch();
-    const [name, setName] = useState('');
     return (
-        <div>
-            <p>Number of questions: { questions.length }</p>
-        </div>
+        <React.Fragment>
+            { quiz_re.name.trim() !== "" ? <Quiz /> : <Landing />}
+        </React.Fragment>
     )
-
 }
 
 export default Game;
