@@ -1,0 +1,67 @@
+.quiz-choice {
+    background-color: $black-light;
+    padding: 11px;
+    border-radius: 5px;
+    border: 3px solid $black;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    user-select: none;
+
+    &-dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: $gray;
+        margin-right: 20px;
+    }
+
+    &-text {
+        color: white;
+    }
+
+    &__selected {
+        .quiz-choice-dot {
+            border: 3px solid $gray;
+            background-color: $primary;
+            cursor: default;
+        }
+    }
+
+    &__right {
+        border: 3px solid $green;
+    }
+
+    &__wrong {
+        border: 3px solid $red;
+    }
+}
+
+.question-item {
+    border-radius: 5px;
+    border: 1px solid $gray;
+    padding: 9px 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 325px;
+
+    &-text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 85%;
+    }
+
+    &-action {
+        width: 22px;
+        height: 22px;
+        background-color: $red;
+        border: none;
+        border-radius: 3px;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 19px;
+    }
+}
